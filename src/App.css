@@ -59,6 +59,7 @@
   height: 150px;
   aspect-ratio: 1/1;
   border-radius: 50%;
+  opacity: 0.7;
 }
 
 .Icon-img-container{
@@ -67,8 +68,14 @@
 }
 
 .Icon-title{
+  padding-top: 10px;
   font-size: 18px;
   font-weight: 500;
+}
+
+.Icon-content{
+  line-height: 180%;
+  color: #808080;
 }
 
 /* Onlinecourse container */
