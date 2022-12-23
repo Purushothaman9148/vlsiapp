@@ -59,7 +59,11 @@
   height: 150px;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  background-color: orange;
+}
+
+.Icon-img-container{
+  color: #ffff;
+  padding: 50px;
 }
 
 .Icon-title{
