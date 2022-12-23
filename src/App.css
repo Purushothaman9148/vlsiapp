@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -13,6 +13,16 @@
   }
 }
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,13 +36,69 @@
 
 .App-link {
   color: #61dafb;
+} */
+
+/* Icon section */
+.Iconsection-main-container{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 80px 120px;
+  background-color: aliceblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Iconsection-container{
+  width: 300px;
+  text-align: center;
+
+}
+
+.Icon-img{
+  margin: 0 auto;
+  height: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.Icon-title{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Onlinecourse container */
+.Onlinecourse-main-container{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 80px 0px;
+}
+
+.onlinecourse-content{
+  width: 300px;
+  border: 1px solid rgba(231,226,226,.1);
+  box-shadow: 0 0 15px 0 rgb(231 226 226 / 100%);
+}
+
+.onlinecourse-img{
+  width: 300px;
+  object-fit: cover;
+}
+
+.onlinecourse-type{
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.onlinecourse-text{
+  padding: 10px 5px;
+}
+
+.Onlinecourse-header{
+  padding: 2px 120px;
+  font-size: 22px;
+  font-weight: 400;
 }
