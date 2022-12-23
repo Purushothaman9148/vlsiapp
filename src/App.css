@@ -45,7 +45,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 80px 60px;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
 }
 
 .Iconsection-container{
@@ -88,13 +88,14 @@
 }
 
 .onlinecourse-content{
-  width: 300px;
+  width: 350px;
   border: 1px solid rgba(231,226,226,.1);
   box-shadow: 0 0 15px 0 rgb(231 226 226 / 100%);
+  border-radius: 4px;
 }
 
 .onlinecourse-img{
-  width: 300px;
+  width: 350px;
   object-fit: cover;
 }
 
@@ -106,10 +107,18 @@
 
 .onlinecourse-text{
   padding: 10px 5px;
+  border-bottom:1px solid #d3d3d3;
+  margin-bottom: 20px;
 }
 
 .Onlinecourse-header{
-  padding: 2px 120px;
+  padding: 2px 50px;
   font-size: 22px;
   font-weight: 400;
+}
+
+.onlinecourse-rating{
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
 }
