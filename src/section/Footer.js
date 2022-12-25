@@ -52,6 +52,8 @@ const footerdata = [
 ];
 
 const Footer = () => {
+    const newDate = new Date();
+    const fullyear = newDate.getFullYear();
     return (
         <div>
             <div className='footer-main-container'>
@@ -79,7 +81,7 @@ const Footer = () => {
                 <YouTubeIcon />
             </div>
             <div className='footer-rights-content'>
-                <p>Copyright ©  Upgrade VLSI. All Rights Reserved.</p>
+                <p>Copyright ©{fullyear} CI. All Rights Reserved.</p>
             </div>
         </div>
     );
