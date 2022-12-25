@@ -44,7 +44,7 @@
   gap: 10px;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 80px 60px;
+  padding: 80px 40px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -126,7 +126,7 @@
 
 /* upgradevlsicontent */
 .upgradevlsi-main-container, .upgrade-main-content{
-  padding: 20px 60px;
+  padding: 20px 40px;
 }
 
 
@@ -165,7 +165,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 30px 60px;
+  padding: 30px 40px;
 }
 
 .footer-container{
